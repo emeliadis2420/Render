@@ -204,5 +204,5 @@ def update_graphs(selected_date, selected_issuers, _):
     return fig_non, fig_idx, tbl_data
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
+    port = int(os.environ.get("PORT", 8051))
     app.run(host="0.0.0.0", port=port)
